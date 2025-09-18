@@ -52,6 +52,7 @@ function App() {
       <main className="main-grid">
         <section className="form-section">
           <form onSubmit={handleSubmit} aria-live="polite">
+            <h3>Request a Demo</h3>
             <label htmlFor="name">Your Name:</label>
             <input
               id="name"
@@ -72,7 +73,7 @@ function App() {
               required
             />
 
-            <label htmlFor="requirement">Your Requirement:</label>
+            <label htmlFor="requirement">Your Phone & Requirement:</label>
             <textarea
               id="requirement"
               name="requirement"
@@ -99,8 +100,8 @@ function App() {
               <p>Smart AI & IoT Solutions</p>
             </div>
             <div className="feature-card">
-              <strong>You Dream</strong>
-              <p>We Deliver & Custom IoT Solutions</p>
+              <strong>IoT Solutions</strong>
+              <p>We work on your idea for reality</p>
             </div>
             <div className="feature-card">
               <strong>AI-Optimized</strong>
